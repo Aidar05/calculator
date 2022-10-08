@@ -11,9 +11,36 @@ body{
 }
 
 #text{
-  height: 21px;
+  width: 300px;
+  height: 40px;
+  border: none;
+  border-radius: 30px;
+  gap: 10px;
 }
 
-.calculator > *{
-  
+.btns{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 200px;
+}
+
+.row{
+  display: flex;
+  flex-grow: 1;
+}
+
+.row button{
+  width: calc(100%/4);
+}
+
+.result button{
+  width: 300px;
+  height: 40px;
+}
+
+button{
+  background-color: rgb(80, 80, 80);
+  color: rgb(200, 200, 200);
+  border-radius: 30px;
 }
